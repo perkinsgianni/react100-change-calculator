@@ -11,10 +11,7 @@
       "extensions": "js,jsx"
     }
   },
-  "homepage": "https://perkinsgianni.github.io/react100-change-calculator",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "webpack --mode development",
     "start": "webpack --mode development && node server/index.js",
     "lint": "eslint .",
